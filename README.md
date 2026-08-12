@@ -111,7 +111,7 @@ python3 mission_planner.py
 
 [Open Interactive 3D Mission Viewer](https://drive.google.com/file/d/1L4VyPjBo20mchMKlCPpggHhoLeIri_ul/view?usp=drive_link)
 
-(https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi-robot.png)
+![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi-robot.png)
 
 # Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
 - Natural language mission parsing using Llama 3.1 8B
