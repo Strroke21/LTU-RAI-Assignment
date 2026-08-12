@@ -2,9 +2,24 @@
     - Task 2.1: Multi-Robot Exploration and Mission Execution
     - Task 2.2: Semantic Mission Planning using Foundation Models
 
+## Install Dependencies 
+```
+pip3 install \
+    numpy \
+    pymavlink \
+    ollama
+
+sudo apt install \
+    ros-humble-rtabmap-ros \
+    ros-humble-cv-bridge \
+    ros-humble-image-transport \
+    ros-humble-tf2-ros
+    
+```
+
 # Multi-Robot Simulator using Ardupilot, ros-humble and gazebo
 
-``` This assumes you have ros2 humble and Ubuntu 22.04 and Gazebo Garden```
+``` This assumes you have ros2 humble and Ubuntu 22.04 and Gazebo Garden and Arducopter sim_vehicle```
 - Multi-UAV simulation in Gazebo Garden
 - ArduPilot SITL integration
 - RGB-D SLAM using RTAB-Map
