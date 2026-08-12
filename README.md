@@ -109,7 +109,7 @@ python3 mission_planner.py
 ## Multi-Robot path planning results
 - Open the interactive 3D visualization:
 
-[Launch Viewer](https://drive.google.com/file/d/1L4VyPjBo20mchMKlCPpggHhoLeIri_ul/view?usp=drive_link)
+[Open Interactive 3D Mission Viewer](https://drive.google.com/file/d/1L4VyPjBo20mchMKlCPpggHhoLeIri_ul/view?usp=drive_link)
 
 # Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
 - Natural language mission parsing using Llama 3.1 8B
