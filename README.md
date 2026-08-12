@@ -14,7 +14,7 @@ sudo apt install \
     ros-humble-cv-bridge \
     ros-humble-image-transport \
     ros-humble-tf2-ros
-    
+
 ```
 
 # Multi-Robot Simulator using Ardupilot, ros-humble and gazebo
@@ -103,9 +103,14 @@ python3 slam_aero.py #this localises both robots using rgb-d odometry
 
 ```
 python3 mission_planner.py 
-#every time the code runs it generates 10 random 3D points and starts mission and achieves waypoints using velocity control. waypoints are divided into robots using spatial clustering and route assignment. no two robots visit same point at any time. 
+#starts mission and achieves waypoints using velocity control. waypoints are divided into robots using spatial clustering and route assignment. no two robots visit same point at any time. 
 
 ```
+## Multi-Robot path planning results
+- Open the interactive 3D visualization:
+
+[Launch Viewer](https://strroke21.github.io/LTU-RAI-Assignment/multi_robot_simulator.html)
+
 # Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
 - Natural language mission parsing using Llama 3.1 8B
 - Semantic scene graph representation
