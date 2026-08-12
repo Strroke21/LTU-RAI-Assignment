@@ -18,7 +18,10 @@ source ~/LTU-RAI-Assignment/install/setup.bash
 
 ## Launch Gazebo
 
-``` gz sim -r -v4 LTU_world.sdf ```
+```
+gz sim -r -v4 LTU_world.sdf 
+
+```
 
 ## run gazebo-ros2 sensor bridge
 ```
@@ -75,7 +78,7 @@ python3 slam_aero.py #this localises both robots using rgb-d odometry
 
 ```
 python3 mission_planner.py 
-#every time the code runs it generates 10 random 3D points and starts mission and achieves waypoints using velocity control. no two robots visit same point at any time. 
+#every time the code runs it generates 10 random 3D points and starts mission and achieves waypoints using velocity control. waypoints are divided into robots using spatial clustering and route assignment. no two robots visit same point at any time. 
 
 ```
 # Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
