@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+  <model name="zed2i">
+    <static>false</static>
+    <link name="zed_base_link">
+      <inertial>
+        <mass>0.2</mass>
+        <inertia>
+          <ixx>0.0001</ixx><iyy>0.0001</iyy><izz>0.0001</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <pose>0.00897 0.03020 0.00262 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://zed2i/meshes/zed2i.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0.02 0.02 0.02 1</ambient>
+          <diffuse>0.05 0.05 0.05 1</diffuse>
+          <specular>0.15 0.15 0.15 1</specular>
+        </material>
+      </visual>
+      <sensor name="imu" type="imu">
+        <always_on>true</always_on>
+        <update_rate>200</update_rate>
+        <topic>/ltu_zed2i_1/imu</topic>
+      </sensor>
+    </link>
+    
+    <link name="camera_link">
+      <inertial>
+        <mass>0.001</mass>
+        <inertia>
+          <ixx>1e-3</ixx><iyy>1e-3</iyy><izz>1e-3</izz>
+          <ixy>0</ixy><ixz>0</ixz><iyz>0</iyz>
+        </inertia>
+      </inertial>
+      
+      <sensor name="zed2i_rgbd" type="rgbd_camera">
+        <pose>0 0 0 0 0 -1.57</pose>
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>60</update_rate>
+        <topic>/ltu_zed2i_1</topic>
+        <camera>
+          <horizontal_fov>1.91986</horizontal_fov>
+          <image>
+            <width>1280</width>
+            <height>720</height>
+            <format>R8G8B8</format>
+          </image>
+          <clip>
+            <near>0.15</near>
+            <far>40.0</far>
+          </clip>
+        </camera>
+      </sensor>
+    </link>
+    <joint name="camera_joint" type="fixed">
+      <parent>zed_base_link</parent>
+      <child>camera_link</child>
+    </joint>
+    <frame name="camera_optical_frame" attached_to="camera_link">
+      <pose>0 0 0 -1.57079632679 0 -1.57079632679</pose>
+    </frame>
+  </model>
+</sdf>

@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<sdf version="1.9">
+  <model name="ltu_livox3">
+
+    <link name="mid360_link">
+
+      <pose>0 0 0 0 0 0</pose>
+
+      <inertial>
+        <mass>0.165</mass>
+        <inertia>
+          <ixx>0.000173</ixx>
+          <iyy>0.000173</iyy>
+          <izz>0.000187</izz>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyz>0</iyz>
+        </inertia>
+      </inertial>
+
+      <visual name="visual">
+        <pose degrees="true">0 0 -0.18 90 0 -90</pose> 
+        <geometry>
+          <mesh>
+            <uri>model://livox-mid360/meshes/mid-360.stl</uri>
+            <scale>1 1 1</scale>
+          </mesh>
+        </geometry>
+      </visual>
+
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://livox-mid360/meshes/mid-360.stl</uri>
+            <scale>0.001 0.001 0.001</scale>
+          </mesh>
+        </geometry>
+      </collision>
+
+      <sensor name="mid360_lidar" type="gpu_lidar">
+
+        <pose>0 0 0 0 0 0</pose>
+
+        <always_on>true</always_on>
+        <visualize>true</visualize>
+        <update_rate>30</update_rate>
+
+        <topic>/ltu_livox3/points</topic>
+
+        <lidar>
+          <scan>
+            <horizontal>
+              <samples>1800</samples>
+              <resolution>1</resolution>
+              <min_angle>-3.14159265</min_angle>
+              <max_angle>3.14159265</max_angle>
+            </horizontal>
+
+            <vertical>
+              <samples>40</samples>
+              <resolution>1</resolution>
+              <min_angle>-0.514872</min_angle>
+              <max_angle>0.514872</max_angle>
+            </vertical>
+          </scan>
+
+          <range>
+            <min>0.1</min>
+            <max>40.0</max>
+            <resolution>0.01</resolution>
+          </range>
+
+          <noise>
+            <type>gaussian</type>
+            <mean>0.0</mean>
+            <stddev>0.015</stddev>
+          </noise>
+        </lidar>
+
+      </sensor>
+
+    </link>
+
+  </model>
+</sdf>
