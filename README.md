@@ -1,6 +1,12 @@
 # Multi-Robot Simulator using Ardupilot, ros-humble and gazebo
 
 ``` This assumes you have ros2 humble and Ubuntu 22.04 and Gazebo Garden```
+- Multi-UAV simulation in Gazebo Garden
+- ArduPilot SITL integration
+- RGB-D SLAM using RTAB-Map
+- Multi-robot waypoint allocation
+- Velocity-based mission execution
+- Failure recovery and task reassignment
 
 ## Gazebo environment with robots
 
@@ -82,6 +88,11 @@ python3 mission_planner.py
 
 ```
 # Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
+- Natural language mission parsing using Llama 3.1 8B
+- Semantic scene graph representation
+- Language grounding
+- Plan validation
+- Event-driven replanning
 
 ## Download and install Ollama model
 
