@@ -176,10 +176,11 @@ def drone_worker(
 
     global r0_alive
     global r1_alive
-
+    counter  = 0
     while True:
 
         # Check mode
+        counter += 1
         mode = flightMode(vehicle)
         print(f"{name} mode: {mode}")
         if mode != "GUIDED":
@@ -206,6 +207,7 @@ def drone_worker(
         x_error = wp[0] - get_local_position(vehicle)[0]+origin[0]
         y_error = wp[1] - get_local_position(vehicle)[1]+origin[1]
         z_error = wp[2] - get_local_position(vehicle)[2]+origin[2]
+        # for plotting the trajectory
 
         vx, vy, vz = controller.update(
             x_error,
@@ -226,7 +228,7 @@ def drone_worker(
             [x_error, y_error, z_error]
         )
 
-        if dist < 0.5:
+        if dist < 2.0:
 
             with lock:
 
@@ -234,6 +236,7 @@ def drone_worker(
                 wp_reached[tuple(wp)] = True
         time.sleep(0.1)
         print(f"Remaining waypoints for {name}: {len(task_list)}")
+
 
 class PID:
     def __init__(self, kp, ki, kd,
@@ -323,17 +326,23 @@ class WaypointController:
         return vx, vy, vz
     
 
-
-mission_points = np.random.randint(
-    low=[-20, -10, -20],     # N, E, D min
-    high=[50, 10, -10],    # N, E, D max
-    size=(10, 3)
-)
+mission_points = np.array([
+    [0,   -10,  -10],
+    [10,  5,  -10],
+    [-20, -50,  -12],
+    [-35,  20,  -15],
+    [80,  50,  -10],
+    [20,  10,  -13],
+    [60,  15,  -12],
+    [35,  8,  -11],
+    [-70,  -30,  -16],
+    [18,  70,  -15],
+])
 
 print("Mission Points (NED):")
 print(mission_points)
-vehicle_r0 = connect('tcp:127.0.0.1:5762') # aerial robot 0
-vehicle_r1 = connect('tcp:127.0.0.1:5772') # aerial robot 1
+vehicle_r0 = connect('tcp:127.0.0.1:5763') # aerial robot 0
+vehicle_r1 = connect('tcp:127.0.0.1:5773') # aerial robot 1
 
 enable_data_stream(vehicle_r0, stream_rate=100)
 enable_data_stream(vehicle_r1, stream_rate=100)
@@ -361,7 +370,7 @@ print("Drones have taken off and are in GUIDED mode.")
 
 controller_r0 = WaypointController()
 controller_r1 = WaypointController()
-global dt
+
 dt = 0.1  #initial time step for PID controller
 lock = threading.Lock()  # Create a lock for thread synchronization
 r0_status = True
@@ -371,3 +380,4 @@ thread0 = threading.Thread(target=drone_worker, args=("r0", vehicle_r0, r0_waypo
 thread1 = threading.Thread(target=drone_worker, args=("r1", vehicle_r1, r1_waypoints, r0_waypoints, controller_r1,r1_origin))
 thread0.start()
 thread1.start()
+
