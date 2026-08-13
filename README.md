@@ -1,4 +1,4 @@
-# This repository contains solutions for:
+# 1.This repository contains solutions for:
     - Task 2.1: Multi-Robot Exploration and Mission Execution
     - Task 2.2: Semantic Mission Planning using Foundation Models
 
@@ -109,11 +109,11 @@ python3 mission_planner.py
 ## Multi-Robot path planning results
 - Open the interactive 3D visualization:
 
-[Open Interactive 3D Mission Viewer](https://drive.google.com/file/d/1L4VyPjBo20mchMKlCPpggHhoLeIri_ul/view?usp=drive_link)
+[Open Interactive 3D Mission Viewer](https://htmlpreview.github.io/?https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi_robot_simulator.html)
 
 ![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi-robot.png)
 
-# Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
+# 2.Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
 - Natural language mission parsing using Llama 3.1 8B
 - Semantic scene graph representation
 - Language grounding
