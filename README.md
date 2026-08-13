@@ -109,9 +109,17 @@ python3 mission_planner.py
 ## Multi-Robot path planning results
 - Open the interactive 3D visualization:
 
+### Normal Mission
 [Open Interactive 3D Mission Viewer](https://htmlpreview.github.io/?https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi_robot_simulator.html)
 
 ![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi-robot.png)
+
+### Failure Case
+[Open Interactive 3D Mission Viewer](https://htmlpreview.github.io/?https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi_robot_simulator_Failure_Case.html)
+
+![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/failure_result.png)
+
+
 
 # 2.Semantic Mission Planning and Agentic Task Decomposition with Foundation Models
 - Natural language mission parsing using Llama 3.1 8B
