@@ -137,17 +137,17 @@ pip3 install ollama
 ## The files required for the tasks are as follows
 
 ```
-scene_graph.py #it contains scene description
-grounding.py #grounding is the step that converts LLM words into real objects in the environment.
-planner.py #it contains plan of action
-validator.py #it contains plan validation
-replanner.py #it contains replanning when a plan fails
+scene_parsing/scene_graph.py #it contains scene description
+scene_parsing/grounding.py #grounding is the step that converts LLM words into real objects in the environment.
+scene_parsing/planner.py #it contains plan of action
+scene_parsing/validator.py #it contains plan validation
+scene_parsing/replanner.py #it contains replanning when a plan fails
 
 ```
 ## To execute semantic mission planning run
 
 ```
-python3 main.py
+python3 scene_parsing/main.py
 
 ```
 
