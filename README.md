@@ -110,12 +110,12 @@ python3 mission_planner.py
 - Open the interactive 3D visualization:
 
 ### Normal Mission
-[Open Interactive 3D Mission Viewer](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Strroke21/LTU-RAI-Assignment/main/multi_robot_simulator.html)
+[Open Interactive 3D Mission Viewer](https://raw.githack.com/Strroke21/LTU-RAI-Assignment/main/multi_robot_simulator.html)
 
 ![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi-robot.png)
 
 ### Failure Case
-[Open Interactive 3D Mission Viewer](https://htmlpreview.github.io/?https://raw.githubusercontent.com/Strroke21/LTU-RAI-Assignment/main/multi_robot_simulator_Failure_Case.html)
+[Open Interactive 3D Mission Viewer](https://raw.githack.com/Strroke21/LTU-RAI-Assignment/main/multi_robot_simulator_Failure_Case.html)
 
 ![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/failure_result.png)
 
