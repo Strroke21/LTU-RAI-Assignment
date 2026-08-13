@@ -56,7 +56,7 @@
           </image>
           <clip>
             <near>0.15</near>
-            <far>40.0</far>
+            <far>100.0</far>
           </clip>
         </camera>
       </sensor>

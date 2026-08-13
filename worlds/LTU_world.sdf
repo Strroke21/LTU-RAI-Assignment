@@ -81,18 +81,13 @@
     </include>
     
     <include>
-      <uri>model://LTU_copter3</uri>
-      <pose degrees="true">0 4 0.195 0 0 90</pose>
-    </include>
-    
-    <include>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Collapsed House</uri>
-      <pose degrees="true">15 20 0.195 0 0 0</pose>
+      <pose degrees="true">18 70 0.195 0 0 0</pose>
     </include>
     
     <include>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Fire truck</uri>
-      <pose degrees="true">0 -10 0.195 0 0 90</pose>
+      <pose degrees="true">-70 -30 0.195 0 0 90</pose>
     </include>
     
     <include>
@@ -101,10 +96,15 @@
     </include>
     
     <include>
-      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/House 2</uri>
-      <pose degrees="true">0 20 0.195 0 0 0</pose>
+      <uri>https://fuel.gazebosim.org/1.0/chapulina/models/Apartment</uri>
+      <pose degrees="true">-70 -30 0.195 0 0 0</pose>
     </include>
     
+    <include>
+      <uri>https://fuel.gazebosim.org/1.0/chapulina/models/Fire station (collapsed)</uri>
+      <pose degrees="true">80 50 0.195 0 0 0</pose>
+    </include>
+        
   </world>
 </sdf>
 

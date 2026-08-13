@@ -8,7 +8,7 @@
     <include>
       <uri>model://ltu_zed1</uri>
       <name>ltu_zed1</name>
-      <pose degrees="true">0.05 0 -0.05 0 0 90</pose>    
+      <pose degrees="true">0.12 0 -0.05 0 0 90</pose>    
     </include>
 
     <joint name="ltu_zed1_mount" type="fixed">
@@ -26,7 +26,6 @@
       <child>ltu_livox1::mid360_link</child>
     </joint>
       
-
     <!--
       visual markers for debugging
       - blade root    - teal
