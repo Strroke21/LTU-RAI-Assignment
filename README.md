@@ -1,4 +1,4 @@
-# 1.This repository contains solutions for:
+# This repository contains solutions for:
     - Task 2.1: Multi-Robot Exploration and Mission Execution
     - Task 2.2: Semantic Mission Planning using Foundation Models
 
@@ -17,7 +17,7 @@ sudo apt install \
 
 ```
 
-# Multi-Robot Simulator using Ardupilot, ros-humble and gazebo
+# 1.Multi-Robot Simulator using Ardupilot, ros-humble and gazebo
 
 ``` This assumes you have ros2 humble and Ubuntu 22.04 and Gazebo Garden and Arducopter sim_vehicle```
 - Multi-UAV simulation in Gazebo Garden
