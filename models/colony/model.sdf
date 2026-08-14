@@ -1,0 +1,1158 @@
+<?xml version="1.0"?>
+<sdf version="1.10">
+  <model name="slam_colony_nonneighbor">
+    <static>true</static>
+    <link name="obj_0">
+      <pose>-90 -90 1.00 0 0 0.0000</pose>
+      <visual name="visual">
+        <geometry><box><size>5 5 2.0</size></box></geometry>
+        <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>5 5 2.0</size></box></geometry>
+      </collision>
+      <visual name="roof_0">
+        <pose>0 0 1.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_1">
+      <pose>-90 -72 1.20 0 0 0.2967</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>2.4</length></cylinder></geometry>
+        <material><ambient>0.5 0 1 1</ambient><diffuse>0.5 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>2.4</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_2">
+      <pose>-90 -54 1.40 0 0 0.5934</pose>
+      <visual name="visual">
+        <geometry><box><size>14 3 2.8</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 3 2.8</size></box></geometry>
+      </collision>
+      <visual name="roof_2">
+        <pose>0 0 1.75 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_3">
+      <pose>-90 -36 1.60 0 0 0.8901</pose>
+      <visual name="visual">
+        <geometry><box><size>11 8 3.2</size></box></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>11 8 3.2</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_4">
+      <pose>-90 -18 1.80 0 0 1.1868</pose>
+      <visual name="visual">
+        <geometry><box><size>9 5 3.6</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 5 3.6</size></box></geometry>
+      </collision>
+      <visual name="roof_4">
+        <pose>0 0 2.15 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_5">
+      <pose>-90 0 2.00 0 0 1.4835</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>4.0</length></cylinder></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>4.0</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_6">
+      <pose>-90 18 2.20 0 0 1.7802</pose>
+      <visual name="visual">
+        <geometry><box><size>14 3 4.4</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 3 4.4</size></box></geometry>
+      </collision>
+      <visual name="roof_6">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_7">
+      <pose>-90 36 1.00 0 0 2.0769</pose>
+      <visual name="visual">
+        <geometry><box><size>11 8 2.0</size></box></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>11 8 2.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_8">
+      <pose>-90 54 1.20 0 0 2.3736</pose>
+      <visual name="visual">
+        <geometry><box><size>8 5 2.4</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 5 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_8">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_9">
+      <pose>-90 72 1.40 0 0 2.6704</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>2.8</length></cylinder></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>2.8</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_10">
+      <pose>-90 90 1.60 0 0 2.9671</pose>
+      <visual name="visual">
+        <geometry><box><size>14 3 3.2</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 3 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_10">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_11">
+      <pose>-72 -90 1.60 0 0 0.5411</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>3.2</length></cylinder></geometry>
+        <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>3.2</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_12">
+      <pose>-72 -72 1.80 0 0 0.8378</pose>
+      <visual name="visual">
+        <geometry><box><size>13 4 3.6</size></box></geometry>
+        <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 4 3.6</size></box></geometry>
+      </collision>
+      <visual name="roof_12">
+        <pose>0 0 2.15 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_13">
+      <pose>-72 -54 2.00 0 0 1.1345</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 4.0</size></box></geometry>
+        <material><ambient>0.5 0 1 1</ambient><diffuse>0.5 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 4.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_14">
+      <pose>-72 -36 2.20 0 0 1.4312</pose>
+      <visual name="visual">
+        <geometry><box><size>8 6 4.4</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 6 4.4</size></box></geometry>
+      </collision>
+      <visual name="roof_14">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_15">
+      <pose>-72 -18 1.00 0 0 1.7279</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>2.0</length></cylinder></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>2.0</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_16">
+      <pose>-72 0 1.20 0 0 2.0246</pose>
+      <visual name="visual">
+        <geometry><box><size>13 4 2.4</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 4 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_16">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_17">
+      <pose>-72 18 1.40 0 0 2.3213</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 2.8</size></box></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 2.8</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_18">
+      <pose>-72 36 1.60 0 0 2.6180</pose>
+      <visual name="visual">
+        <geometry><box><size>7 6 3.2</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>7 6 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_18">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_19">
+      <pose>-72 54 1.80 0 0 2.9147</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>3.6</length></cylinder></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>3.6</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_20">
+      <pose>-72 72 2.00 0 0 0.0698</pose>
+      <visual name="visual">
+        <geometry><box><size>13 4 4.0</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 4 4.0</size></box></geometry>
+      </collision>
+      <visual name="roof_20">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_21">
+      <pose>-72 90 2.20 0 0 0.3665</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 4.4</size></box></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 4.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_22">
+      <pose>-54 -90 2.20 0 0 1.0821</pose>
+      <visual name="visual">
+        <geometry><box><size>12 5 4.4</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 5 4.4</size></box></geometry>
+      </collision>
+      <visual name="roof_22">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_23">
+      <pose>-54 -72 1.00 0 0 1.3788</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 2.0</size></box></geometry>
+        <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 2.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_24">
+      <pose>-54 -54 1.20 0 0 1.6755</pose>
+      <visual name="visual">
+        <geometry><box><size>7 7 2.4</size></box></geometry>
+        <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>7 7 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_24">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_25">
+      <pose>-54 -36 1.40 0 0 1.9722</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>2.8</length></cylinder></geometry>
+        <material><ambient>0.5 0 1 1</ambient><diffuse>0.5 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>2.8</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_26">
+      <pose>-54 -18 1.60 0 0 2.2689</pose>
+      <visual name="visual">
+        <geometry><box><size>12 5 3.2</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 5 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_26">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_27">
+      <pose>-54 0 1.80 0 0 2.5656</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 3.6</size></box></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 3.6</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_28">
+      <pose>-54 18 2.00 0 0 2.8623</pose>
+      <visual name="visual">
+        <geometry><box><size>6 7 4.0</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>6 7 4.0</size></box></geometry>
+      </collision>
+      <visual name="roof_28">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_29">
+      <pose>-54 36 2.20 0 0 0.0175</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>4.4</length></cylinder></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>4.4</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_30">
+      <pose>-54 54 1.00 0 0 0.3142</pose>
+      <visual name="visual">
+        <geometry><box><size>12 5 2.0</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 5 2.0</size></box></geometry>
+      </collision>
+      <visual name="roof_30">
+        <pose>0 0 1.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_31">
+      <pose>-54 72 1.20 0 0 0.6109</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 2.4</size></box></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 2.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_32">
+      <pose>-54 90 1.40 0 0 0.9076</pose>
+      <visual name="visual">
+        <geometry><box><size>5 7 2.8</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>5 7 2.8</size></box></geometry>
+      </collision>
+      <visual name="roof_32">
+        <pose>0 0 1.75 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_33">
+      <pose>-36 -90 1.40 0 0 1.6232</pose>
+      <visual name="visual">
+        <geometry><box><size>8 9 2.8</size></box></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 9 2.8</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_34">
+      <pose>-36 -72 1.60 0 0 1.9199</pose>
+      <visual name="visual">
+        <geometry><box><size>6 8 3.2</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>6 8 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_34">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_35">
+      <pose>-36 -54 1.80 0 0 2.2166</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>3.6</length></cylinder></geometry>
+        <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>3.6</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_36">
+      <pose>-36 54 1.60 0 0 0.8552</pose>
+      <visual name="visual">
+        <geometry><box><size>8 9 3.2</size></box></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 9 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_36">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_37">
+      <pose>-36 72 1.80 0 0 1.1519</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 3.6</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 3.6</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_38">
+      <pose>-36 90 2.00 0 0 1.4486</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>4.0</length></cylinder></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>4.0</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_38">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_39">
+      <pose>-18 -90 2.00 0 0 2.1642</pose>
+      <visual name="visual">
+        <geometry><box><size>5 9 4.0</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>5 9 4.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_40">
+      <pose>-18 -72 2.20 0 0 2.4609</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>4.4</length></cylinder></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>4.4</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_40">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_41">
+      <pose>-18 -54 1.00 0 0 2.7576</pose>
+      <visual name="visual">
+        <geometry><box><size>14 4 2.0</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 4 2.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_42">
+      <pose>-18 54 2.20 0 0 1.3963</pose>
+      <visual name="visual">
+        <geometry><box><size>8 9 4.4</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 9 4.4</size></box></geometry>
+      </collision>
+      <visual name="roof_42">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_43">
+      <pose>-18 72 1.00 0 0 1.6930</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>2.0</length></cylinder></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>2.0</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_44">
+      <pose>-18 90 1.20 0 0 1.9897</pose>
+      <visual name="visual">
+        <geometry><box><size>14 4 2.4</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 4 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_44">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_45">
+      <pose>0 -90 1.20 0 0 2.7053</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>2.4</length></cylinder></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>2.4</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_46">
+      <pose>0 -72 1.40 0 0 3.0020</pose>
+      <visual name="visual">
+        <geometry><box><size>13 5 2.8</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 5 2.8</size></box></geometry>
+      </collision>
+      <visual name="roof_46">
+        <pose>0 0 1.75 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_47">
+      <pose>0 -54 1.60 0 0 0.1571</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 3.2</size></box></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 3.2</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_48">
+      <pose>0 54 1.40 0 0 1.9373</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>2.8</length></cylinder></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>2.8</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_48">
+        <pose>0 0 1.75 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_49">
+      <pose>0 72 1.60 0 0 2.2340</pose>
+      <visual name="visual">
+        <geometry><box><size>13 5 3.2</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 5 3.2</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_50">
+      <pose>0 90 1.80 0 0 2.5307</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 3.6</size></box></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 3.6</size></box></geometry>
+      </collision>
+      <visual name="roof_50">
+        <pose>0 0 2.15 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_51">
+      <pose>18 -90 1.80 0 0 0.1047</pose>
+      <visual name="visual">
+        <geometry><box><size>12 3 3.6</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 3 3.6</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_52">
+      <pose>18 -72 2.00 0 0 0.4014</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 4.0</size></box></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 4.0</size></box></geometry>
+      </collision>
+      <visual name="roof_52">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_53">
+      <pose>18 -54 2.20 0 0 0.6981</pose>
+      <visual name="visual">
+        <geometry><box><size>7 6 4.4</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>7 6 4.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_54">
+      <pose>18 54 2.00 0 0 2.4784</pose>
+      <visual name="visual">
+        <geometry><box><size>12 3 4.0</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 3 4.0</size></box></geometry>
+      </collision>
+      <visual name="roof_54">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_55">
+      <pose>18 72 2.20 0 0 2.7751</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 4.4</size></box></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 4.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_56">
+      <pose>18 90 1.00 0 0 3.0718</pose>
+      <visual name="visual">
+        <geometry><box><size>5 6 2.0</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>5 6 2.0</size></box></geometry>
+      </collision>
+      <visual name="roof_56">
+        <pose>0 0 1.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_57">
+      <pose>36 -90 1.00 0 0 0.6458</pose>
+      <visual name="visual">
+        <geometry><box><size>8 9 2.0</size></box></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 9 2.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_58">
+      <pose>36 -72 1.20 0 0 0.9425</pose>
+      <visual name="visual">
+        <geometry><box><size>6 7 2.4</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>6 7 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_58">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_59">
+      <pose>36 -54 1.40 0 0 1.2392</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>2.8</length></cylinder></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>2.8</length></cylinder></geometry>
+      </collision>
+    </link>
+    <link name="obj_60">
+      <pose>36 54 1.20 0 0 3.0194</pose>
+      <visual name="visual">
+        <geometry><box><size>8 9 2.4</size></box></geometry>
+        <material><ambient>0.5 0 1 1</ambient><diffuse>0.5 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 9 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_60">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_61">
+      <pose>36 72 1.40 0 0 0.1745</pose>
+      <visual name="visual">
+        <geometry><box><size>9 7 2.8</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 7 2.8</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_62">
+      <pose>36 90 1.60 0 0 0.4712</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>3.2</length></cylinder></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>3.2</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_62">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_63">
+      <pose>54 -90 1.60 0 0 1.1868</pose>
+      <visual name="visual">
+        <geometry><box><size>5 8 3.2</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>5 8 3.2</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_64">
+      <pose>54 -72 1.80 0 0 1.4835</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>3.6</length></cylinder></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>3.6</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_64">
+        <pose>0 0 2.15 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_65">
+      <pose>54 -54 2.00 0 0 1.7802</pose>
+      <visual name="visual">
+        <geometry><box><size>14 5 4.0</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 5 4.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_66">
+      <pose>54 -36 2.20 0 0 2.0769</pose>
+      <visual name="visual">
+        <geometry><box><size>11 8 4.4</size></box></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>11 8 4.4</size></box></geometry>
+      </collision>
+      <visual name="roof_66">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_67">
+      <pose>54 -18 1.00 0 0 2.3736</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 2.0</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 2.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_68">
+      <pose>54 0 1.20 0 0 2.6704</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>2.4</length></cylinder></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>2.4</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_68">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_69">
+      <pose>54 18 1.40 0 0 2.9671</pose>
+      <visual name="visual">
+        <geometry><box><size>14 5 2.8</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 5 2.8</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_70">
+      <pose>54 36 1.60 0 0 0.1222</pose>
+      <visual name="visual">
+        <geometry><box><size>11 8 3.2</size></box></geometry>
+        <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>11 8 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_70">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_71">
+      <pose>54 54 1.80 0 0 0.4189</pose>
+      <visual name="visual">
+        <geometry><box><size>8 8 3.6</size></box></geometry>
+        <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 8 3.6</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_72">
+      <pose>54 72 2.00 0 0 0.7156</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>4.0</length></cylinder></geometry>
+        <material><ambient>0.5 0 1 1</ambient><diffuse>0.5 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>4.0</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_72">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_73">
+      <pose>54 90 2.20 0 0 1.0123</pose>
+      <visual name="visual">
+        <geometry><box><size>14 5 4.4</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>14 5 4.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_74">
+      <pose>72 -90 2.20 0 0 1.7279</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>4.4</length></cylinder></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>4.4</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_74">
+        <pose>0 0 2.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_75">
+      <pose>72 -72 1.00 0 0 2.0246</pose>
+      <visual name="visual">
+        <geometry><box><size>13 3 2.0</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 3 2.0</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_76">
+      <pose>72 -54 1.20 0 0 2.3213</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 2.4</size></box></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 2.4</size></box></geometry>
+      </collision>
+      <visual name="roof_76">
+        <pose>0 0 1.55 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_77">
+      <pose>72 -36 1.40 0 0 2.6180</pose>
+      <visual name="visual">
+        <geometry><box><size>8 9 2.8</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>8 9 2.8</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_78">
+      <pose>72 -18 1.60 0 0 2.9147</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>3.2</length></cylinder></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>3.2</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_78">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_79">
+      <pose>72 0 1.80 0 0 0.0698</pose>
+      <visual name="visual">
+        <geometry><box><size>13 3 3.6</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 3 3.6</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_80">
+      <pose>72 18 2.00 0 0 0.3665</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 4.0</size></box></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 4.0</size></box></geometry>
+      </collision>
+      <visual name="roof_80">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_81">
+      <pose>72 36 2.20 0 0 0.6632</pose>
+      <visual name="visual">
+        <geometry><box><size>7 9 4.4</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>7 9 4.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_82">
+      <pose>72 54 1.00 0 0 0.9599</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>4</radius><length>2.0</length></cylinder></geometry>
+        <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>4</radius><length>2.0</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_82">
+        <pose>0 0 1.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_83">
+      <pose>72 72 1.20 0 0 1.2566</pose>
+      <visual name="visual">
+        <geometry><box><size>13 3 2.4</size></box></geometry>
+        <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>13 3 2.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_84">
+      <pose>72 90 1.40 0 0 1.5533</pose>
+      <visual name="visual">
+        <geometry><box><size>10 9 2.8</size></box></geometry>
+        <material><ambient>0.5 0 1 1</ambient><diffuse>0.5 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>10 9 2.8</size></box></geometry>
+      </collision>
+      <visual name="roof_84">
+        <pose>0 0 1.75 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_85">
+      <pose>90 -90 1.40 0 0 2.2689</pose>
+      <visual name="visual">
+        <geometry><box><size>12 4 2.8</size></box></geometry>
+        <material><ambient>0 0 1 1</ambient><diffuse>0 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 4 2.8</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_86">
+      <pose>90 -72 1.60 0 0 2.5656</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 3.2</size></box></geometry>
+        <material><ambient>1 0.7 0.7 1</ambient><diffuse>1 0.7 0.7 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 3.2</size></box></geometry>
+      </collision>
+      <visual name="roof_86">
+        <pose>0 0 1.95 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_87">
+      <pose>90 -54 1.80 0 0 2.8623</pose>
+      <visual name="visual">
+        <geometry><box><size>7 5 3.6</size></box></geometry>
+        <material><ambient>1 0 1 1</ambient><diffuse>1 0 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>7 5 3.6</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_88">
+      <pose>90 -36 2.00 0 0 0.0175</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>2</radius><length>4.0</length></cylinder></geometry>
+        <material><ambient>0 0.5 1 1</ambient><diffuse>0 0.5 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>2</radius><length>4.0</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_88">
+        <pose>0 0 2.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_89">
+      <pose>90 -18 2.20 0 0 0.3142</pose>
+      <visual name="visual">
+        <geometry><box><size>12 4 4.4</size></box></geometry>
+        <material><ambient>1 0.5 0 1</ambient><diffuse>1 0.5 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 4 4.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_90">
+      <pose>90 0 1.00 0 0 0.6109</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 2.0</size></box></geometry>
+        <material><ambient>0 1 0 1</ambient><diffuse>0 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 2.0</size></box></geometry>
+      </collision>
+      <visual name="roof_90">
+        <pose>0 0 1.35 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_91">
+      <pose>90 18 1.20 0 0 0.9076</pose>
+      <visual name="visual">
+        <geometry><box><size>6 5 2.4</size></box></geometry>
+        <material><ambient>0.5 1 0 1</ambient><diffuse>0.5 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>6 5 2.4</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_92">
+      <pose>90 36 1.40 0 0 1.2043</pose>
+      <visual name="visual">
+        <geometry><cylinder><radius>3</radius><length>2.8</length></cylinder></geometry>
+        <material><ambient>1 1 0 1</ambient><diffuse>1 1 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><cylinder><radius>3</radius><length>2.8</length></cylinder></geometry>
+      </collision>
+      <visual name="roof_92">
+        <pose>0 0 1.75 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_93">
+      <pose>90 54 1.60 0 0 1.5010</pose>
+      <visual name="visual">
+        <geometry><box><size>12 4 3.2</size></box></geometry>
+        <material><ambient>0.3 0.3 0.3 1</ambient><diffuse>0.3 0.3 0.3 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>12 4 3.2</size></box></geometry>
+      </collision>
+    </link>
+    <link name="obj_94">
+      <pose>90 72 1.80 0 0 1.7977</pose>
+      <visual name="visual">
+        <geometry><box><size>9 8 3.6</size></box></geometry>
+        <material><ambient>0 1 1 1</ambient><diffuse>0 1 1 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>9 8 3.6</size></box></geometry>
+      </collision>
+      <visual name="roof_94">
+        <pose>0 0 2.15 0 0 0</pose>
+        <geometry><box><size>1.5 1.5 0.7</size></box></geometry>
+      </visual>
+    </link>
+    <link name="obj_95">
+      <pose>90 90 2.00 0 0 2.0944</pose>
+      <visual name="visual">
+        <geometry><box><size>5 5 4.0</size></box></geometry>
+        <material><ambient>1 0 0 1</ambient><diffuse>1 0 0 1</diffuse></material>
+      </visual>
+      <collision name="collision">
+        <geometry><box><size>5 5 4.0</size></box></geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

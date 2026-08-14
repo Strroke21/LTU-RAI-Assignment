@@ -339,6 +339,8 @@ mission_points = np.array([
     [18,  70,  -15],
 ])
 
+
+
 print("Mission Points (NED):")
 print(mission_points)
 vehicle_r0 = connect('tcp:127.0.0.1:5763') # aerial robot 0
@@ -365,7 +367,7 @@ arm(vehicle_r1)
 time.sleep(4)
 drone_takeoff(vehicle_r0, intial_alt)
 drone_takeoff(vehicle_r1, intial_alt)
-time.sleep(10)  
+time.sleep(5)  
 print("Drones have taken off and are in GUIDED mode.")
 
 controller_r0 = WaypointController()

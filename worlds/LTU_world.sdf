@@ -67,7 +67,7 @@
     
     <include>
       <uri>model://runway</uri>
-      <pose degrees="true">-40 545 0 0 0 363</pose>
+      <pose degrees="true">200 545 0 0 0 363</pose>
     </include>
     
     <include>
@@ -86,8 +86,8 @@
     </include>
     
     <include>
-      <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Fire truck</uri>
-      <pose degrees="true">-70 -30 0.195 0 0 90</pose>
+      <uri>model://colony</uri>
+      <pose degrees="true">0 0 0.195 0 0 90</pose>
     </include>
     
     <include>
