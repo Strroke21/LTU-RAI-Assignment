@@ -156,11 +156,11 @@ def save_plot(
     )
 
     fig.write_html(
-        "multi_robot_simulator.html"
+        "multi_robot_simulator2.html"
     )
 
     print(
-        "\nSaved: multi_robot_simulator.html"
+        "\nSaved: multi_robot_simulator2.html"
     )
 
 
