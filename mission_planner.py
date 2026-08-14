@@ -303,7 +303,7 @@ class WaypointController:
         )
 
         self.pid_z = PID(
-            kp=0.8,
+            kp=1.0,
             ki=0.0,
             kd=0.2,
             out_limit=1.5
