@@ -112,7 +112,7 @@ python3 mission_planner.py
 ### Normal Mission
 [Open Interactive 3D Mission Viewer](https://raw.githack.com/Strroke21/LTU-RAI-Assignment/main/multi_robot_simulator.html)
 
-![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/multi-robot.png)
+![alt text](https://github.com/Strroke21/LTU-RAI-Assignment/blob/main/mission_plot.png)
 
 ### Failure Case
 [Open Interactive 3D Mission Viewer](https://raw.githack.com/Strroke21/LTU-RAI-Assignment/main/multi_robot_simulator_Failure_Case.html)
