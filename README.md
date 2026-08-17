@@ -96,7 +96,7 @@ queue_size:=100
 ```
 ## Run localization node for r0 and r1
 ```
-python3 slam_aero.py #this localises both robots using rgb-d odometry
+python3 slam_aero.py #this localises both robots using rgb-d odometry with global fusion
 
 ```
 ## Run Mission Planner 
