@@ -339,8 +339,6 @@ mission_points = np.array([
     [18,  70,  -15],
 ])
 
-
-
 print("Mission Points (NED):")
 print(mission_points)
 vehicle_r0 = connect('tcp:127.0.0.1:5763') # aerial robot 0
